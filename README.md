@@ -25,4 +25,10 @@
  - LANGUAGE_CODE = 'zh-Hant'
  - TIME_ZONE = 'Asia/Taipei'
 
+ ### python manage.py shell 
+ - from django.contrib.auth.models import User 
+ - User.objects.all()
+ - User.objects.get(id=1)
+ - User.objects.get(username='bert')
+
 
